@@ -44,10 +44,3 @@
     .menu__list { display: none; }
     .menu input:checked ~ .menu__list { display: block; }
   }
-  
-  /* [DOES NOT MATTER] */
-  html, body {
-    padding: 0;
-    margin: 0;
-    font-family: arial, sans-serif;
-  }
