@@ -28,3 +28,26 @@ footer {
     justify-content: center;
     gap: 30px;
 }
+
+
+@media (min-width: 1140px) {
+    footer {
+        text-align: start;
+    }
+    .contacts__container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .contacts__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .contacts__list {
+        flex-direction: row;
+    }
+    .contacts__media__list {
+        justify-content: start;
+    }
+}
