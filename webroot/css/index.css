@@ -7,6 +7,9 @@ html, body {
 h1 {
   color: white; }
 
+img {
+  width: 100%; }
+
 .header__container {
   position: absolute;
   width: 100%; }
