@@ -188,3 +188,33 @@ li {
   text-transform: uppercase;
   background-color: transparent;
   border: 2px solid gainsboro; }
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white; }
+
+.contacts__container {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.contacts__title {
+  font-size: 28px;
+  font-weight: bold; }
+
+.contacts__list,
+.contacts__media__list {
+  padding-left: 0;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; }
+
+.contacts__media__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px; }
