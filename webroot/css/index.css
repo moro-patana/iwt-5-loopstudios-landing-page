@@ -92,3 +92,23 @@ img {
   font-size: 38px;
   padding: 20px;
   color: white; }
+
+.interactive__container {
+  padding: 20px; }
+
+.interactive__info {
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px; }
+
+.interactive__title {
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 24px; }
+
+.interactive__description {
+  font-family: "Josefin Sans";
+  font-weight: bold;
+  color: #8c8c8c;
+  font-size: 18px;
+  line-height: 22px; }
