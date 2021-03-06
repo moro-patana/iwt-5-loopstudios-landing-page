@@ -67,3 +67,27 @@
     background-color: transparent;
     border: 2px solid gainsboro;
 }
+
+@media (min-width: 1140px) {
+    .creations__container {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .creations__list__container {
+        display: flex;
+       flex-direction: column-reverse;
+    }
+    .creations__list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 20px;
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 20px;
+    }
+    .creations__button__container {
+        justify-content: flex-end;
+        padding-right: 0;
+    }
+}
