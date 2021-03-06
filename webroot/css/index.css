@@ -65,3 +65,17 @@ h1 {
     display: none; }
   .menu input:checked ~ .menu__list {
     display: block; } }
+
+.masthead__header__container {
+  padding: 50px; }
+
+.masthead__header__content {
+  text-align: center;
+  border: 2px solid white; }
+
+.masthead__header__title {
+  font-family: "Josefin Sans";
+  text-transform: uppercase;
+  font-size: 38px;
+  padding: 20px;
+  color: white; }
