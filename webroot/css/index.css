@@ -118,3 +118,42 @@ li {
   color: #8c8c8c;
   font-size: 18px;
   line-height: 22px; }
+
+.creations__container {
+  padding: 20px; }
+
+.creations__list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px; }
+
+.creations__list__item {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.earth {
+  background-image: url("../images/image-deep-earth.jpg"); }
+
+.arcade {
+  background-image: url("../images/image-night-arcade.jpg"); }
+
+.soccer {
+  background-image: url("../images/image-soccer-team.jpg"); }
+
+.grid {
+  background-image: url("../images/image-grid.jpg"); }
+
+.vr {
+  background-image: url("../images/image-from-above.jpg"); }
+
+.boarealis {
+  background-image: url("../images/image-pocket-borealis.jpg"); }
+
+.curiosity {
+  background-image: url("../images/image-curiosity.jpg"); }
+
+.fisheye {
+  background-image: url("../images/image-fisheye.jpg"); }
