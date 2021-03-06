@@ -15,7 +15,6 @@ h1 {
   align-items: center; }
 
 .menu {
-  width: 100%;
   background: #000;
   position: sticky;
   top: 0; }
