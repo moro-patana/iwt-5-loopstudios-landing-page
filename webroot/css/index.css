@@ -1,5 +1,7 @@
-html {
+html, body {
   font-family: "Alata";
+  margin: 0;
+  padding: 0;
   background-color: red; }
 
 .header__content {
