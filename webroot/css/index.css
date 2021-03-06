@@ -15,9 +15,8 @@ h1 {
   align-items: center; }
 
 .menu {
-  position: absolute;
-  width: 100%;
   background: #000;
+  position: sticky;
   top: 0; }
 
 .menu__header {
@@ -47,6 +46,8 @@ h1 {
 /* [ON SMALL SCREENS] */
 @media screen and (max-width: 768px) {
   /* Show Hamburger Icon */
+  .menu__title {
+    display: none; }
   .menu label {
     display: inline-block;
     color: white;
