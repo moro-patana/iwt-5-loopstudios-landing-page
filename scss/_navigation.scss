@@ -1,8 +1,15 @@
 .menu {
-    // width: 100%;
+    position: absolute;
+    width: 100%;
     background: #000;
-    position: sticky;
+    // position: sticky;
     top: 0;
+  }
+  .menu__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .menu label, #hamburger { display: none; }

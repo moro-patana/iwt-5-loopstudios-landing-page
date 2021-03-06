@@ -15,9 +15,16 @@ h1 {
   align-items: center; }
 
 .menu {
+  position: absolute;
+  width: 100%;
   background: #000;
-  position: sticky;
   top: 0; }
+
+.menu__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
 
 .menu label, #hamburger {
   display: none; }
