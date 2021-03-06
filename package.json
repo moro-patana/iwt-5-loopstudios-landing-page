@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/moro-patana/iwt-5-loopstudios-landing-page/issues"
   },
-  "homepage": "https://github.com/moro-patana/iwt-5-loopstudios-landing-page#readme"
+  "homepage": "https://github.com/moro-patana/iwt-5-loopstudios-landing-page#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
