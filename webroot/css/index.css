@@ -126,7 +126,7 @@ li {
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 50px; }
+  gap: 30px; }
 
 .creations__list__item {
   padding-top: 80px;
